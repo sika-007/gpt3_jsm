@@ -57,6 +57,7 @@
     flex: 0.6;
     width: 100%;
     min-height: 50px;
+    min-width: 110px;
     background: #FF4820;
     border-radius: 0px 5px 5px 0px;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -96,6 +97,7 @@
 
 .gpt3__header-image {
     flex: 1;
+    min-width: 520px;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
