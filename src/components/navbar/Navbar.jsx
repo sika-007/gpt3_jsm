@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 import "./navbar.css"
 import logo from "../../assets/logo.svg"
@@ -6,7 +6,13 @@ import logo from "../../assets/logo.svg"
 
 const NavBar = () => {
 
-  const [toggleMenu, setToggleMenu] = useState(true)
+  const [toggleMenu, setToggleMenu] = useState(false)
+
+
+    document.addEventListener("click", () => {
+      setToggleMenu(false)
+    }, true)
+
 
   const Menu = () => {
     return (
