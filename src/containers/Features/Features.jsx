@@ -34,7 +34,8 @@ const Features = () => {
 
 
   return (
-    <div className="gpt3__features section__padding" id="features">
+    <div className="gpt3__features section__padding" id="features" data-aos="fade-right" data-aos-delay="150"
+    data-aos-duration="1000">
       <div className="gpt3__features-heading">
         <h1 className='gradient__text'>The Future is Now and You Just Need To realize it. Step into the Future Today & Make it Happen.</h1>
         <p>Request Early Access to Get Started</p>
