@@ -5,7 +5,7 @@ import { Blog01, Blog02, Blog03, Blog04, Blog05} from "./index"
 
 const Blog = () => {
   return (
-    <div className='gpt3__blog section__padding' id="blog" data-aos="fade-left" data-aos-delay="150"
+    <div className='gpt3__blog section__padding' id="blog" data-aos="zoom-out-right" data-aos-delay="150"
     data-aos-duration="1000">
       <div className='gpt3__blog-heading'>
         <h1 className="gradient__text">A lot is happening, 
